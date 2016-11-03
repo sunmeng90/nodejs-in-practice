@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">ch6_fs</h1>
+          <h3 class="report-date">Tuesday, November 1 2016, 11:41pm</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">5.151<span>S</span></li>
+                <li class="qs-item summary-suites" title="Suites">3</li>
+                <li class="qs-item summary-tests" title="Tests">7</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">6</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">1</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">5.151<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">3</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">7</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">6</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">85.7% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="fff5a687-8a4b-435b-bf6b-68e03ef3eb62" class="suite has-tests has-passed">
+            <h3 class="suite-title">mydatabase</h3>
+            <h5 class="suite-filename">\test\mydatabase.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="fff5a687-8a4b-435b-bf6b-68e03ef3eb62" class="suite-chart" width="50" height="50" data-total-passes="3" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">8 ms</li>
+                <li class="suite-summary-item tests">3</li>
+                <li class="suite-summary-item passed">3</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#fff5a687-8a4b-435b-bf6b-68e03ef3eb62-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="fff5a687-8a4b-435b-bf6b-68e03ef3eb62-test-list" class="list-group test-list collapse in">
+                    <div id="9af37e52-11e9-4278-9926-8997bd22e404" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              load
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#9af37e52-11e9-4278-9926-8997bd22e404 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">5 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> testdb1 = <span class="hljs-keyword">new</span> db(<span class="hljs-string">'./test.db'</span>);<br>    testdb1.on(<span class="hljs-string">'load'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{<br>        should(testdb._records).be.a.Object;<br>        done();<br>    });</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="614a41cf-db2a-4089-9b28-6274a1a1e034" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              set
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#614a41cf-db2a-4089-9b28-6274a1a1e034 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">3 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">testdb.set(<span class="hljs-number">1</span>, { <span class="hljs-string">'name'</span>: <span class="hljs-string">'sunmeng1'</span>, <span class="hljs-string">'age'</span>: <span class="hljs-number">20</span>, birthday: <span class="hljs-string">'2010-10-10'</span> }, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{<br>    testdb._records[<span class="hljs-number">1</span>].should.be.a.Object;<br>    done();<br>});<br><span class="hljs-comment">//<span class="hljs-doctag">TODO:</span> !!! how to call done directly with multiple async call=</span><br><span class="hljs-comment">// testdb.set(2, { 'name': 'sunmeng2', 'age': 20, birthday: '2010-10-10' });</span><br><span class="hljs-comment">// testdb.set(3, { 'name': 'sunmeng3', 'age': 20, birthday: '2010-10-10' });</span><br><span class="hljs-comment">// testdb.set(4, { 'name': 'sunmeng4', 'age': 20, birthday: '2010-10-10' });</span><br><span class="hljs-comment">// testdb.set(5, { 'name': 'sunmeng5', 'age': 20, birthday: '2010-10-10' });</span><br><span class="hljs-comment">// testdb.set(6, { 'name': 'sunmeng6', 'age': 20, birthday: '2010-10-10' });</span></code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="418776bf-50b5-4b61-86a1-d12ff2c00aba" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              delete
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#418776bf-50b5-4b61-86a1-d12ff2c00aba > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">testdb.delete(<span class="hljs-number">6</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{<br>    should(testdb._records[<span class="hljs-number">6</span>]).be.null;<br>    done();<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="958e784b-d8c5-4543-9ac9-dc8db368ebf6" class="suite has-tests has-passed has-failed">
+            <h3 class="suite-title">recursive finder</h3>
+            <h5 class="suite-filename">\test\myfinder.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="958e784b-d8c5-4543-9ac9-dc8db368ebf6" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="1" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">5.96 s</li>
+                <li class="suite-summary-item tests">2</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">1</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#958e784b-d8c5-4543-9ac9-dc8db368ebf6-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="958e784b-d8c5-4543-9ac9-dc8db368ebf6-test-list" class="list-group test-list collapse in">
+                    <div id="8076157d-1227-4cf6-ad15-dea11ab7c581" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              sync find
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#8076157d-1227-4cf6-ad15-dea11ab7c581 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">93 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-comment">// this.timeout(mochaTimeOut);</span><br><span class="hljs-keyword">var</span> results = myfinder.findSync(<span class="hljs-regexp">/\.js$/</span>, testDir);<br><span class="hljs-comment">// console.log(results);</span><br>results.should.be.an.Array;<br>results.should.not.be.empty;<br>results.length.should.be.above(<span class="hljs-number">0</span>);<br>results.should.containEql(<span class="hljs-string">'index.js'</span>);<br><span class="hljs-comment">// results.should.containEql('nindex.js');</span></code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="c74be9e7-4491-474b-9b79-515909cd1f9e" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              async find
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#c74be9e7-4491-474b-9b79-515909cd1f9e > .test-code.collapse">Code</button>
+              <span class="test-duration ">5.3 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">Error: timeout of 5000ms exceeded. Ensure the done() callback is being called in this test.
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#c74be9e7-4491-474b-9b79-515909cd1f9e > .test-error-stack.collapse">Stack</button>
+            </p>
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(mochaTimeOut);<br>myfinder.find(<span class="hljs-regexp">/\.js$/</span>, testDir, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err, results</span>) </span>{<br>    <span class="hljs-keyword">if</span> (err) {<br>        <span class="hljs-keyword">return</span> err;<br>    }<br>    results.should.be.an.Array;<br>    results.should.not.be.empty;<br>    done();<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small"><span class="hljs-built_in">Error</span>: timeout <span class="hljs-keyword">of</span> <span class="hljs-number">5000</span>ms exceeded. Ensure the done() callback is being called <span class="hljs-keyword">in</span> <span class="hljs-keyword">this</span> test.</code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="22367b82-3496-494b-985f-b18a3d40e69b" class="suite has-tests has-passed">
+            <h3 class="suite-title">locking =&gt; </h3>
+            <h5 class="suite-filename">\test\mylock.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="22367b82-3496-494b-985f-b18a3d40e69b" class="suite-chart" width="50" height="50" data-total-passes="2" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">9 ms</li>
+                <li class="suite-summary-item tests">2</li>
+                <li class="suite-summary-item passed">2</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#22367b82-3496-494b-985f-b18a3d40e69b-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="22367b82-3496-494b-985f-b18a3d40e69b-test-list" class="list-group test-list collapse in">
+                    <div id="d9ffca5b-4b6a-4737-8185-36568a541b97" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              lock should be created
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#d9ffca5b-4b6a-4737-8185-36568a541b97 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">6 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">mylock.lock(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>) </span>{<br>    <span class="hljs-keyword">if</span> (err) <span class="hljs-keyword">throw</span> err;<br>    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'get lock successfully'</span>);<br>    mylock.locking.should.be.true;<br>    done();<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="0b9caf0c-6d8e-4829-bcab-0a54a3cdd7fe" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              lock should be removed
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#0b9caf0c-6d8e-4829-bcab-0a54a3cdd7fe > .test-code.collapse">Code</button>
+              <span class="test-duration fast">3 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">mylock.lock(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>) </span>{<br>    <span class="hljs-keyword">if</span> (err) <span class="hljs-keyword">throw</span> err;<br>    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'get lock successfully'</span>);<br>    mylock.unlock(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{<br>        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'lock released'</span>);<br>        done();<br>    });<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2016.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#fff5a687-8a4b-435b-bf6b-68e03ef3eb62" class="nav-menu-item-link has-passes">mydatabase</a>
+            </li>
+                <li class="nav-menu-item">
+                <a href="#958e784b-d8c5-4543-9ac9-dc8db368ebf6" class="nav-menu-item-link has-failures">recursive finder</a>
+            </li>
+                <li class="nav-menu-item">
+                <a href="#22367b82-3496-494b-985f-b18a3d40e69b" class="nav-menu-item-link has-passes">locking =&gt; </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>

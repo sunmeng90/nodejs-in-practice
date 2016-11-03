@@ -1,0 +1,16 @@
+{
+    "name": "ch6_fs",
+    "version": "1.0.0",
+    "description": "\"file system\"",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha test/ --reporter mochawesome"
+    },
+    "dependencies": {
+        "mocha": "*",
+        "mochawesome": "*"
+    },
+    "author": "Meng",
+    "license": "ISC"
+}
