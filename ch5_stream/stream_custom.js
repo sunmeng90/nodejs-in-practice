@@ -60,7 +60,11 @@ function MyWriter(options) {
 }
 
 
-MyWriter.prototype = Object.create(stream.Writable.prototype, { constructor: { value: MyWriter } });
+MyWriter.prototype = Object.create(stream.Writable.prototype, {
+    constructor: {
+        value: MyWriter
+    }
+});
 
 MyWriter.prototype._write = function(chunk, encoding, callback) {
     process.stdout.write('u001b[32m' + chunk + 'u001b[39m');
